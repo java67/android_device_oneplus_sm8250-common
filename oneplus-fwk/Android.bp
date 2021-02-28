@@ -1,0 +1,10 @@
+java_library {
+    name: "oneplus-fwk.oneplus_kona",
+    installable: true,
+
+    srcs: [
+        "src/android/util/OpFeatures.java",
+        "src/com/oneplus/os/IParamService.java",
+        "src/net/oneplus/odm/OpDeviceManagerInjector.java",
+    ],
+}
